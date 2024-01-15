@@ -89,7 +89,6 @@ class Rectangle(Base):
             print("")
             return
 
-
         [print("") for y in range(self.y)]
         for h in range(self.height):
             [print(" ", end="") for x in range(self.x)]
@@ -98,7 +97,6 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         """Update the Rectangle.
-
 
         Args:
             *args (ints): New attribute values.
@@ -152,7 +150,6 @@ class Rectangle(Base):
             "x": self.x,
             "y": self.y
         }
-
 
     def __str__(self):
         """Return the print() and str() representation of the Rectangle."""
