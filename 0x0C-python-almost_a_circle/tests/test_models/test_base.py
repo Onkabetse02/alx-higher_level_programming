@@ -12,7 +12,7 @@ Unittest classes:
     TestBase_load_from_file_csv - line 482
 """
 import os
-import unittes
+import unittest
 from models.base import Base
 from models.rectangle import Rectangle
 from models.square import Square
